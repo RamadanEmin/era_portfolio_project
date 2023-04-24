@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
+import './intro.css';
 import Programmer from '../../images/programmer.jpg';
 import { init } from 'ityped';
 import { motion } from 'framer-motion';
+import { pageAnime, introH1Anime, introPAnime } from '../../resources/Animation';
 
 export default function Intro() {
 
@@ -23,17 +25,17 @@ export default function Intro() {
     return (
         <div
             className='intro_container'
-            variants={}
+            variants={pageAnime}
             initial='initial'
             animate='animate'
         >
             <motion.h1
-                variants={}
+                variants={introH1Anime}
                 initial='initial'
                 animate='animate'>
                 Welcome</motion.h1>
             <motion.p
-                variants={}
+                variants={introPAnime}
                 initial='initial'
                 animate='animate'
                 ref={textRef}></motion.p>
