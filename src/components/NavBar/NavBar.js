@@ -8,10 +8,12 @@ import {
   navLeftAnime,
   navRightAnime,
 } from '../../resources/Animation';
+import SocialLinks from '../SocialLinks/SocialLinks';
 
 export default function NavBar() {
   return (
     <div className="navbar_container">
+      <SocialLinks />
       <motion.div
         className="navbar_about"
         variants={navTopAnime}
