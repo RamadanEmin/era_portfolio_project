@@ -111,3 +111,15 @@ export const soundBarAnime = {
         }
     }
 };
+
+export const sLinksLineAnime = {
+    initial: { height: 0 },
+    animate: {
+        height: '8rem',
+        transition: {
+            duration: 4,
+            type: 'spring',
+            delay: 0.8
+        }
+    }
+};

@@ -1,6 +1,8 @@
 import React from 'react';
+import './socialLinks.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import { sLinksLineAnime } from '../../resources/Animation';
 
 export default function SocialLinks() {
   return (
@@ -41,7 +43,7 @@ export default function SocialLinks() {
       </a>
       <motion.div
         className="social_links_line"
-        variants={}
+        variants={sLinksLineAnime}
         initial="initial"
         animate="animate"
       />
