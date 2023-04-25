@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './intro.css';
+import NavBar from '../../components/NavBar/NavBar';
 import Programmer from '../../images/programmer.jpg';
 import { init } from 'ityped';
 import { motion } from 'framer-motion';
@@ -29,6 +30,7 @@ export default function Intro() {
             initial='initial'
             animate='animate'
         >
+            <NavBar />
             <motion.h1
                 variants={introH1Anime}
                 initial='initial'
