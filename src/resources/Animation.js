@@ -99,3 +99,15 @@ export const navRightAnime = {
         }
     }
 };
+
+export const soundBarAnime = {
+    initial: { y: -100, },
+    animate: {
+        y: 0,
+        transition: {
+            duration: 4,
+            type: 'spring',
+            delay: 0.8
+        }
+    }
+};
