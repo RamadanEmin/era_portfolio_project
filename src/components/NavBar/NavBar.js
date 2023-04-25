@@ -1,13 +1,20 @@
 import React from 'react';
+import './navBar.css';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import {
+  navTopAnime,
+  navBottomAnime,
+  navLeftAnime,
+  navRightAnime,
+} from '../../resources/Animation';
 
 export default function NavBar() {
   return (
     <div className="navbar_container">
       <motion.div
         className="navbar_about"
-        variants={}
+        variants={navTopAnime}
         initial="initial"
         animate="animate"
         whileHover={{
@@ -25,7 +32,7 @@ export default function NavBar() {
       </motion.div>
       <motion.div
         className="navbar_contact"
-        variants={}
+        variants={navBottomAnime}
         initial="initial"
         animate="animate"
         whileHover={{
@@ -43,7 +50,7 @@ export default function NavBar() {
       </motion.div>
       <motion.div
         className="navbar_skills"
-        variants={}
+        variants={navLeftAnime}
         initial="initial"
         animate="animate"
         whileHover={{
@@ -61,7 +68,7 @@ export default function NavBar() {
       </motion.div>
       <motion.div
         className="navbar_portfolio"
-        variants={}
+        variants={navRightAnime}
         initial="initial"
         animate="animate"
         whileHover={{
