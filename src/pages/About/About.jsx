@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import NavBar from '../../components/NavBar/NavBar';
+import ButtomReturn from '../../components/ButtonReturn/ButtomReturn';
 import ParticlesAbout from '../../resources/ParticlesAbout';
 import myphoto from '../../images/profil.png';
 import { motion } from 'framer-motion';
@@ -18,6 +19,7 @@ export default function About() {
             initial='initial'
             animate='animate'>
             <NavBar />
+            <ButtomReturn />
             <ParticlesAbout />
             <motion.p
                 variants={aboutTextAnime}
