@@ -123,3 +123,34 @@ export const sLinksLineAnime = {
         }
     }
 };
+
+export const aboutTextAnime = {
+    initial: {
+        y: 200,
+        opacity: 0
+    },
+    animate: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            duration: 2,
+            type: 'spring',
+            delay: 1.5
+        }
+    }
+};
+
+export const aboutImgAnime = {
+    initial: {
+        y: -400,
+        opacity: 0
+    },
+    animate: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            duration: 4,
+            type: 'spring', delay: 1.5
+        }
+    }
+};
