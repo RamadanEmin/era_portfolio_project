@@ -3,6 +3,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import ButtomReturn from '../../components/ButtonReturn/ButtomReturn';
 import skills from '../../videos/skills.mp4';
 import { motion } from 'framer-motion';
+import { skillsB1Anime, skillsB3Anime, pageAnime } from '../../resources/Animation';
 
 export default function Skills() {
 
@@ -30,7 +31,7 @@ export default function Skills() {
     return (
         <motion.div
             className='skills_container'
-            variants={}
+            variants={pageAnime}
             initial='initial'
             animate='animate'
         >
@@ -46,7 +47,7 @@ export default function Skills() {
             </video>
             <motion.div
                 className='skills_box'
-                variants={}
+                variants={skillsB1Anime}
                 initial='initial'
                 animate='animate'
             >
@@ -63,7 +64,7 @@ export default function Skills() {
            
             <motion.div
                 className='skills_box'
-                variants={}
+                variants={skillsB3Anime}
                 initial='initial'
                 animate='animate'
             >

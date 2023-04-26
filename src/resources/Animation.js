@@ -154,3 +154,45 @@ export const aboutImgAnime = {
         }
     }
 };
+
+export const skillsB1Anime = {
+    initial: {
+        y: 100,
+        opacity: 0,
+        scale: 0.1,
+        rotate: -90
+    },
+    animate: {
+        y: 0,
+        opacity: 1,
+        scale: 1,
+        rotate: 0,
+        transition: {
+            duration: 1,
+            delay: 1,
+            type: 'spring',
+            ease: 'easeInOut'
+        }
+    }
+};
+
+export const skillsB2Anime = {
+    initial: {
+        x: 100,
+        opacity: 0,
+        scale: 0.1,
+        rotate: 180
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        scale: 1,
+        rotate: 0,
+        transition: {
+            duration: 2,
+            delay: 1,
+            type: 'spring',
+            ease: 'easeInOut'
+        }
+    }
+};
