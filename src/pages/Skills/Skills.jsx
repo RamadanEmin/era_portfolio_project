@@ -1,4 +1,5 @@
 import React from 'react';
+import './skills.css';
 import NavBar from '../../components/NavBar/NavBar';
 import ButtomReturn from '../../components/ButtonReturn/ButtomReturn';
 import skills from '../../videos/skills.mp4';
