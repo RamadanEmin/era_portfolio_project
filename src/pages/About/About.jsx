@@ -1,4 +1,5 @@
 import React from 'react';
+import './about.css';
 import NavBar from '../../components/NavBar/NavBar';
 import myphoto from '../../images/profil.png';
 import { motion } from 'framer-motion';
