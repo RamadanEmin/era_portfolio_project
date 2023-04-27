@@ -1,0 +1,87 @@
+.portfolio_container {
+    background: url("../../images/portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.portfolio_gallery {
+    padding: 100px;
+    display: grid;
+    justify-content: center;
+}
+
+.portfolio_card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio_title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 45px;
+    color: white;
+    text-shadow: 1px 3px 3px black;
+}
+
+.portfolio_img {
+    position: relative;
+    height: 390px;
+    width: 630px;
+    border-radius: 10%;
+    margin: 20px;
+    box-shadow: 1px 3px 3px white;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.portfolio_img:hover {
+    transform: scale(1.05);
+    animation-duration: 1;
+    animation-delay: 0.2;
+    transition: all 0.5s ease;
+} 
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 150px;
+}
+
+  .live-demo-btn, .github-btn {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 3px 3px white;
+    transition: all 0.3s ease-in-out;
+}
+
+.live-demo-btn:hover, .github-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 5px 5px white;
+}
+  
+@media screen and (max-width: 700px) {
+    .portfolio_gallery img {
+        height: 180px;
+        width: 245px;
+        margin: 10px;
+        border-radius: 0%;
+    }
+    .portfolio_title {
+        font-size: 15px;
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './portfolio.css';
 import NavBar from '../../components/NavBar/NavBar';
 import ButtomReturn from '../../components/ButtonReturn/ButtomReturn';
 import { motion } from 'framer-motion';
