@@ -196,3 +196,26 @@ export const skillsB2Anime = {
         }
     }
 };
+
+export const advertsGAnimation = {
+    initial: {},
+    animate: {
+        transition: {
+            delay: 2,
+            when: 'beforeChildren',
+            staggerChildren: 0.5
+        }
+    }
+};
+
+export const advertsIAnimation = {
+    initial: {
+        y: 100,
+        opacity: 0
+    },
+    animate: {
+        y: 0,
+        opacity: 1,
+        transition: { duration: 1.5 }
+    }
+};

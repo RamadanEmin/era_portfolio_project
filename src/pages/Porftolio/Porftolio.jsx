@@ -2,13 +2,18 @@ import React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import ButtomReturn from '../../components/ButtonReturn/ButtomReturn';
 import { motion } from 'framer-motion';
+import {
+  advertsGAnimation,
+  advertsIAnimation,
+  pageAnime,
+} from '../../resources/Animation';
 import { dataPortfolio } from '../../data/Data';
 
 export default function Porftolio() {
   return (
     <motion.div
       className="portfolio_container"
-      variants={}
+      variants={pageAnime}
       initial="initial"
       animate="animate"
     >
@@ -16,7 +21,7 @@ export default function Porftolio() {
       <ButtomReturn />
       <motion.div
         className="portfolio_gallery"
-        variants={}
+        variants={advertsGAnimation}
         initial="initial"
         animate="animate"
       >
