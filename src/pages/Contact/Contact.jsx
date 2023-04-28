@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import './contact.css';
 import NavBar from '../../components/NavBar/NavBar';
 import ButtomReturn from '../../components/ButtonReturn/ButtomReturn';
 import contact from '../../videos/contact.mp4';
