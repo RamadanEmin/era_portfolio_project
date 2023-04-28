@@ -5,6 +5,7 @@ import ButtomReturn from '../../components/ButtonReturn/ButtomReturn';
 import contact from '../../videos/contact.mp4';
 import { FaMailBulk, FaPhoneAlt, FaCity } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 import {
   contactInfoAnime,
   contactFormAnime,
@@ -13,6 +14,30 @@ import {
 
 export default function Contact() {
   const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_vdik39n',
+        'template_e7phjre',
+        form.current,
+        'GsczUOKOBA8LSQO1Z'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert('Your message sent successfully');
+          document.getElementById('name').value ='';
+          document.getElementById('email').value = '';
+          document.getElementById('message').value = '';
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <motion.div
@@ -62,7 +87,7 @@ export default function Contact() {
         initial="initial"
         animate="animate"
       >
-        <form ref={form} >
+        <form ref={form} onSubmit={sendEmail}>
           <div>
             <h1>Talk to me!</h1>
             <label>Name</label>
