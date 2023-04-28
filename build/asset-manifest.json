@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.091a3486.css",
+    "main.js": "/static/js/main.715bbc8a.js",
+    "static/media/contact.mp4": "/static/media/contact.bce0bdbed98692ac6189.mp4",
+    "static/media/profil.png": "/static/media/profil.a1f00cf28dc5cf3dae44.png",
+    "static/media/backgroundmusic.mp3": "/static/media/backgroundmusic.41be050bbaf69f40c5ff.mp3",
+    "static/media/skills.mp4": "/static/media/skills.321fe793ea57c236f528.mp4",
+    "static/media/intro.jpg": "/static/media/intro.9a2dc6449239574c3fa7.jpg",
+    "static/media/disneyPlus.png": "/static/media/disneyPlus.a1bd442efae4100243c5.png",
+    "static/media/music.png": "/static/media/music.3ac0e6db87a6087fe617.png",
+    "static/media/portfolio.jpg": "/static/media/portfolio.0493867f628c27060954.jpg",
+    "static/media/restaurant.png": "/static/media/restaurant.69ab4748ccc0c847a5b0.png",
+    "static/media/fitness.png": "/static/media/fitness.cdc904f96df74bba710c.png",
+    "static/media/metaversus.png": "/static/media/metaversus.c408096098984dc934dc.png",
+    "static/media/back.png": "/static/media/back.db3ecb49c3f8e42f237b.png",
+    "static/media/programmer.jpg": "/static/media/programmer.5d5f5285b2eaf5ae1ca1.jpg",
+    "index.html": "/index.html",
+    "main.091a3486.css.map": "/static/css/main.091a3486.css.map",
+    "main.715bbc8a.js.map": "/static/js/main.715bbc8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.091a3486.css",
+    "static/js/main.715bbc8a.js"
+  ]
+}
