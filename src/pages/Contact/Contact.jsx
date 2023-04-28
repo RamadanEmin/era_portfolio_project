@@ -4,6 +4,11 @@ import ButtomReturn from '../../components/ButtonReturn/ButtomReturn';
 import contact from '../../videos/contact.mp4';
 import { FaMailBulk, FaPhoneAlt, FaCity } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import {
+  contactInfoAnime,
+  contactFormAnime,
+  pageAnime,
+} from '../../resources/Animation';
 
 export default function Contact() {
   const form = useRef();
@@ -11,7 +16,7 @@ export default function Contact() {
   return (
     <motion.div
       className="contact_container"
-      variants={}
+      variants={pageAnime}
       initial="initial"
       animate="animate"
     >
@@ -29,7 +34,7 @@ export default function Contact() {
       </video>
       <motion.div
         className="contact_info"
-        variants={}
+        variants={contactInfoAnime}
         initial="initial"
         animate="animate"
       >
@@ -52,11 +57,11 @@ export default function Contact() {
 
       <motion.div
         className="contact_form"
-        variants={}
+        variants={contactFormAnime}
         initial="initial"
         animate="animate"
       >
-        <form ref={form}>
+        <form ref={form} >
           <div>
             <h1>Talk to me!</h1>
             <label>Name</label>

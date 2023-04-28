@@ -219,3 +219,38 @@ export const advertsIAnimation = {
         transition: { duration: 1.5 }
     }
 };
+
+export const contactInfoAnime = {
+    initial: {
+        x: -100,
+        opacity: 0
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration: 5,
+            delay: 1.5,
+            type: 'spring',
+            stiffness: 5000
+        }
+    }
+};
+
+export const contactFormAnime = {
+    initial: {
+        opacity: 0,
+        scale: 0
+    },
+    animate: {
+        opacity: 1,
+        scale: [1, 0.5, 1, 0.5, 1],
+        rotate: [0, 0, 270, 270, 0],
+        borderRadius: ['10%', '50%', '10%', '50%', '10%'],
+        transition: {
+            duration: 1.5,
+            delay: 1,
+            ease: 'backInOut'
+        }
+    }
+};
