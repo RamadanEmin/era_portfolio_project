@@ -3,8 +3,15 @@ import disneyPlus from '../images/disneyPlus.png';
 import metaversus from '../images/metaversus.png';
 import restaurant from '../images/restaurant.png';
 import music from '../images/music.png';
+import eccomerce from '../images/eccomerce.png';
 
 export const dataPortfolio = [
+  {
+    url: `${eccomerce}`,
+    title: 'ERA eccomerce',
+    liveDemo: 'https://era-ecommerce.vercel.app/',
+    github: 'https://github.com/RamadanEmin/era_ecommerce',
+  },
   {
     url: `${music}`,
     title: 'ERA music app',
