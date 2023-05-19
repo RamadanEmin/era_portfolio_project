@@ -4,8 +4,15 @@ import metaversus from '../images/metaversus.png';
 import restaurant from '../images/restaurant.png';
 import music from '../images/music.png';
 import eccomerce from '../images/eccomerce.png';
+import news from '../images/news.png';
 
 export const dataPortfolio = [
+  {
+    url: `${news}`,
+    title: 'ERA news',
+    liveDemo: 'https://era-news-qhizet2fx-ramo-pld7-abvbg.vercel.app/',
+    github: 'https://github.com/RamadanEmin/era_news_app',
+  },
   {
     url: `${eccomerce}`,
     title: 'ERA eccomerce',
