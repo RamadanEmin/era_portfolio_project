@@ -5,8 +5,15 @@ import restaurant from '../images/restaurant.png';
 import music from '../images/music.png';
 import eccomerce from '../images/eccomerce.png';
 import news from '../images/news.png';
+import weather from '../images/weather.png';
 
 export const dataPortfolio = [
+  {
+    url: `${weather}`,
+    title: 'ERA weather',
+    liveDemo: 'https://weather-app-open-ai.vercel.app/',
+    github: 'https://github.com/RamadanEmin/era_weather_app',
+  },
   {
     url: `${news}`,
     title: 'ERA news',
