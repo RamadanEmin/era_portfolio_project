@@ -6,8 +6,15 @@ import music from '../images/music.png';
 import eccomerce from '../images/eccomerce.png';
 import news from '../images/news.png';
 import weather from '../images/weather.png';
+import prompt from '../images/prompt.png';
 
 export const dataPortfolio = [
+  {
+    url: `${prompt}`,
+    title: 'Promptopia',
+    liveDemo: 'https://promptopia-kohl-alpha.vercel.app/',
+    github: 'https://github.com/RamadanEmin/promptopia',
+  },
   {
     url: `${weather}`,
     title: 'ERA weather',
